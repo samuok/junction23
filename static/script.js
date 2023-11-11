@@ -21,7 +21,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     button4.addEventListener('click', function() {
-        updateInfo('Data for Button 4');
+        updateInfo('<h3>Eye tracking algorithm</h3><p>The eye tracking algorithm follows the eyes movement \
+                    and tracks the eyes convergence distance in cm. The algorithm treats each lense of the glasses as an unit circle \
+                    with the sensors on the circumference. The data is translated to fit into the circle and then used to \
+                    calculate the positions of the pupils. These positions can be then further used to check the direction of the eyes \
+                    or to calculate a position in the surface of the unit sphere that represents the eyes view direction. \
+                    These direction vectors from both eyes can be then used to calculate the view distance so that \
+                    they can be used as data for our machine learning model.</p>');
     });
 
     button5.addEventListener('click', function() {
@@ -30,6 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to update the info element content
     function updateInfo(data) {
-        infoElement.textContent = data;
+        infoElement.innerHTML = data;
     }
 });
