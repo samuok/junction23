@@ -13,7 +13,7 @@ UPLOAD_FOLDER = r'C:\Users\samuo\PycharmProjects\flask_junction\data\uploads'
 app = Flask(__name__)
 app.secret_key = 'albos'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-model = pickle.load(open('model.pkl','rb'))
+#model = pickle.load(open('model.pkl','rb'))
 
 
 latest_upload = '1'
