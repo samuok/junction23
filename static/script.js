@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     button2.addEventListener('click', function() {
-        updateInfo('<img src="">');
+        updateInfo('<h1>Machine Learning</h1><p>Our model consist of RandomForest combined with our unique data structure. We start by grouping the input data into groups of 60 that we use to create our unique features. We train the model on this group features to identify different activities. Currently, our model boasts a 95% prediction accuracy based on the datasets that were provided. We split the dataset into a training, test and validation set consisting of 60% training, 20% testing and 20% validation. By doing this we ensure that the results are accurate.</p>');
     });
 
     button3.addEventListener('click', function() {
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     button5.addEventListener('click', function() {
-        updateInfo('Data for Button 5');
+        updateInfo('<h1>The team</h1><h3>Kerkko Kuokkanen, kerkko.kuokkanen@gmail.com<br><br>Jussi Ristolainen, jussimristolainen@gmail.com<br><br>Riku-Erik Mäki, rikuerik.maki@gmail.com<br><br>Samu Oksala, samu.oksala@hotmail.com</h3>');
     });
 
     // Function to update the info element content
@@ -41,5 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Set the default content for the info element
-    updateInfo('Data for Button 1');
+    updateInfo('<h1>The idea</h1><p>Our initial idea for the project was that we would create a machine learning model, that we could train with the given data and after that anyone could use their datasets from their glasses on our model. However, perhaps a bit late we came to the realization, that it would not be possible, because nearly noone has a proper dataset.' +
+            ' Instead, what we came up with is: <br>- Eye tracking<br>- Machine Learning model to identify different activities<br>- A way to send requests to the server using single data points and use this to predict the activies using the trained model</p>');
 });
