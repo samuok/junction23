@@ -32,7 +32,9 @@ h1 {
     color: #2ecc71; /* Green color */
     display: block;
     margin-bottom: 0; /* Set margin to zero to remove space between buttons */
-    padding: 15px 30px; /* Increase padding for buttons */
+    width: 200px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    padding: 15px; /* Adjust padding for buttons */
     font: 300 200% langdon; /* Increase font size */
     background: transparent;
     border: 3px solid #2ecc71; /* Green color */
@@ -52,7 +54,6 @@ button:active {
 
 .item {
     text-align: center;
-    border: 2px solid #3498db; /* Light Blue color */
     background-color: #ecf0f1; /* Light Gray background */
     flex: 1;
     padding: 30px; /* Increase padding for the item */
