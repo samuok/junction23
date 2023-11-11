@@ -1,0 +1,60 @@
+body {
+    background-color: #f0f3f4; /* Light background color for the entire page */
+    margin: 0; /* Remove default body margin */
+    font-family: 'Arial', sans-serif; /* Change font family for the entire body */
+}
+
+h1 {
+    text-align: center;
+    color: #3498db; /* Light Blue color */
+    font-size: 2.5em; /* Increase font size */
+    margin-top: 30px; /* Add some top margin */
+}
+
+.container {
+    display: flex;
+    border: 2px solid #2ecc71; /* Green color */
+    background-color: #ecf0f1; /* Light Gray background */
+    width: 800px; /* Increase the width */
+    margin: 20px auto; /* Center the container horizontally */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure the border-radius is applied properly */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Display buttons in a column */
+    align-items: flex-start; /* Align buttons to the start (left) */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.btn {
+    color: #2ecc71; /* Green color */
+    display: block;
+    margin-bottom: 0; /* Set margin to zero to remove space between buttons */
+    padding: 15px 30px; /* Increase padding for buttons */
+    font: 300 200% langdon; /* Increase font size */
+    background: transparent;
+    border: 3px solid #2ecc71; /* Green color */
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2ecc71; /* Green color on hover */
+    color: #fff; /* White text on hover */
+}
+
+button:active {
+    background: #27ae60; /* Darker green color on click */
+    border: 1px solid #27ae60; /* Darker green color on click */
+    color: #fff; /* White text on click */
+}
+
+.item {
+    text-align: center;
+    border: 2px solid #3498db; /* Light Blue color */
+    background-color: #ecf0f1; /* Light Gray background */
+    flex: 1;
+    padding: 30px; /* Increase padding for the item */
+    font-size: 120%; /* Adjust font size for the item */
+}
