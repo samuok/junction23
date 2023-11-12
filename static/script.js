@@ -9,8 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add click event listeners to buttons
     button1.addEventListener('click', function() {
-        updateInfo('<h1>The idea</h1><p>Our initial idea for the project was that we would create a machine learning model, that we could train with the given data and after that anyone could use their datasets from their glasses on our model. However, perhaps a bit late we came to the realization, that it would not be possible, because nearly noone has a proper dataset.' +
-            ' Instead, what we came up with is: <br>- Eye tracking<br>- Machine Learning model to identify different activities<br>- A way to send requests to the server using single data points and use this to predict the activies using the trained model</p>');
+        updateInfo('<h1>The idea</h1><p>Do you ever feel like time is slipping away? Have you pondered where the hours of your daily life vanish to? For all the curious minds out there, we\'ve got a solution just for you! All you need is a pair of Pixieray glasses and our Eyeviction toolkit.\n' +
+            'Our toolkit analyzes data from the glasses and employs machine learning to identify the user\'s current activity. This opens up numerous possibilities for everyday use! For instance, imagine a user wanting to plan the upcoming week. With Eyeviction, they can visually assess how well they adhered to their weekly schedule.\n' +
+            'In the scope of this project, we\'ve trained the application to recognize various activities, including driving, walking, reading, scrolling through social media, and chatting. The sky\'s the limit for further development!</p>');
     });
 
     button2.addEventListener('click', function() {
@@ -41,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Set the default content for the info element
-    updateInfo('<h1>The idea</h1><p>Our initial idea for the project was that we would create a machine learning model, that we could train with the given data and after that anyone could use their datasets from their glasses on our model. However, perhaps a bit late we came to the realization, that it would not be possible, because nearly noone has a proper dataset.' +
-            ' Instead, what we came up with is: <br>- Eye tracking<br>- Machine Learning model to identify different activities<br>- A way to send requests to the server using single data points and use this to predict the activies using the trained model</p>');
+    updateInfo('<h1>The idea</h1><p>Do you ever feel like time is slipping away? Have you pondered where the hours of your daily life vanish to? For all the curious minds out there, we\'ve got a solution just for you! All you need is a pair of Pixieray glasses and our Eyeviction toolkit.\n' +
+        'Our toolkit analyzes data from the glasses and employs machine learning to identify the user\'s current activity. This opens up numerous possibilities for everyday use! For instance, imagine a user wanting to plan the upcoming week. With Eyeviction, they can visually assess how well they adhered to their weekly schedule.\n' +
+        'In the scope of this project, we\'ve trained the application to recognize various activities, including driving, walking, reading, scrolling through social media, and chatting. The sky\'s the limit for further development!</p>');
 });
